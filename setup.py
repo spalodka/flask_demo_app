@@ -6,7 +6,7 @@ with open("README.MD",r) as file:
 setuptools.setup(
 	name='preprocess_iampossible', #this should be unique 
 	version = '0.0.1',
-	author = 'Sandip Palodkar'
+	author = 'Sandip Palodkar',
 	#author_email ='sandippalodkar7@gmail.com',
 	description = 'This is preprocessing package',
 	long_description = long_description,
