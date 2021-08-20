@@ -2,16 +2,16 @@ from preprocess_iampossible import utils
 
 __version__= '0.0.1'
 
-def _getlowercase(x):
+def getlowercase(x):
 	return utils._getlowercase(x)
 
-def _getuppercase(x):
+def getuppercase(x):
 	return utils._getuppercase(x)
 
-def _getcharcount(x):
+def getcharcount(x):
 	return utils._getcharcount(x)
 
-def _getnoncharcount(x):
+def getnoncharcount(x):
 	return utils._getnoncharcount(x)
 
 def removeextraspace(x):
