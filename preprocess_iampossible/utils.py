@@ -10,12 +10,12 @@ def _getuppercase(x):
 	return	x.upper()
 
 def _getcharcount(x):
-	text =(re.sub(r'[\w]+',"",text))
+	text =(re.sub(r'[\w]+',"",x))
 	count =len(text)
 	return count
 
 def _getnoncharcount(x):
-	text =(re.sub(r'[^\w]+',"",text))
+	text =(re.sub(r'[^\w]+',"",x))
 	count =len(text)
 	return count
 
